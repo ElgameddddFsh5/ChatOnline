@@ -1,0 +1,9 @@
+.Massages {
+  /* background-color: #111b21; */
+  height: calc(100% - 140px);
+  padding: 10px;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-image: url("../../images/51439hd.jpg");
+  background-size: cover;
+}

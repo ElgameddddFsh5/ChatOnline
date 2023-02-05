@@ -1,0 +1,35 @@
+.TypeInput {
+  height: 70px;
+  padding: 10px;
+  background-color: #202c33;
+}
+.messageInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #ccc;
+  width: 80%;
+  margin-right: 1rem;
+  outline: none;
+  background-color: #25363f;
+  border: none;
+  color: #fff;
+}
+.input::placeholder {
+  color: #fff;
+}
+.button {
+  padding: 0.5rem 1rem;
+  background-color: #111b21;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+}

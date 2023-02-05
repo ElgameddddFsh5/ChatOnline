@@ -1,0 +1,30 @@
+.Chats {
+  color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #e9e9e969;
+  background-color: #111b21;
+  cursor: pointer;
+}
+.Chats:hover {
+  background-color: #1f303b;
+}
+.NameAndText {
+  display: flex;
+  align-items: center;
+}
+.NameAndText p,
+.NameAndText span {
+  margin: 0 10px;
+}
+.NameAndText p {
+  font-size: 16px;
+}
+.NameAndText span {
+  font-size: 14px;
+  color: #cccccc;
+}
+.Chatsimg {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}

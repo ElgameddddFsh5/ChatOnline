@@ -1,0 +1,36 @@
+.Chat {
+  flex: 2;
+}
+
+.ChatInfo {
+  padding: 10px;
+  color: lightgray;
+  height: 70px;
+  background-color: #202c33;
+}
+.ChatInfo svg {
+  margin: 0 5px;
+  color: #fff;
+}
+.ChatInfo span {
+  margin: 0;
+}
+.ChatIcon {
+  display: flex;
+  gap: 10px;
+}
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .Chat {
+    flex: 1;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .Chat {
+    flex: 1;
+  }
+}

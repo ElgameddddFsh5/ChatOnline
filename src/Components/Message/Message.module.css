@@ -1,0 +1,41 @@
+.MassageInfo {
+  display: grid;
+  margin-bottom: 20px;
+}
+.MassageInfo img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.MassageInfo p {
+  font-size: 12px;
+  color: rgb(46, 46, 46);
+}
+.MassageContent {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+}
+.MassageContent span {
+  background-color: #202c33;
+  color: #fff;
+  padding: 10px;
+  border-radius: 0px 5px 5px 5px;
+  max-width: max-content;
+  margin: 20px 0px;
+}
+.owner {
+  flex-direction: row-reverse;
+}
+.owner .MassageContent {
+  align-items: flex-end;
+}
+.owner .MassageContent img {
+  width: 50%;
+}
+.owner .MassageContent span {
+  background-color: #00a884;
+  color: #fff;
+  border-radius: 5px 0px 5px 5px;
+}

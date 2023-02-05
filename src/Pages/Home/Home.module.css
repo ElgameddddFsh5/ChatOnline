@@ -1,0 +1,39 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  /* background-color: #111b21; */
+}
+.homeContainer {
+  width: 85%;
+  height: 95%;
+  border-radius: 5px;
+  /* overflow: hidden; */
+}
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .homeContainer {
+    width: 800px;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border-radius: 5px;
+    /* overflow: hidden; */
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .homeContainer {
+    width: 800px;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border-radius: 5px;
+    /* overflow: hidden; */
+  }
+}

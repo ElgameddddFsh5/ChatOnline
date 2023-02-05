@@ -1,0 +1,39 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  width: 100%;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  background-color: #111b21;
+}
+.input::placeholder {
+  color: #fff;
+}
+.Search {
+  color: #fff;
+  padding: 10px;
+}
+.Search:hover {
+  background-color: rgb(158, 158, 158);
+}
+.Search p {
+  margin: 0 10px;
+  font-weight: bold;
+}
+.Searchimg {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.SearchUser {
+  border-bottom: 1px solid rgb(158, 160, 158);
+}
